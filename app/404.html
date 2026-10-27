@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Mayday</title>
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  <link rel="icon" href="/mayday/app/favicon.ico"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Mayday" />
+    <meta name="theme-color" content="#121110" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="apple-touch-icon" href="/mayday/app/apple-touch-icon.png" />
+    <link rel="manifest" href="/mayday/app/manifest.webmanifest" />
+    <style id="mayday-iphone">
+      html, body { background: #121110; }
+      /* Buttons are pressed hard and fast: no text selection, magnifier or callout. */
+      body { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; touch-action: manipulation; overscroll-behavior: none; }
+      input, textarea { -webkit-user-select: text; user-select: text; }
+    </style>
+  </head>
+
+  <body>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="/mayday/app/_expo/static/js/web/__expo-metro-runtime-97703ae02682710149335928b974f18d.js" defer></script><script src="/mayday/app/_expo/static/js/web/__common-fb8c7cf50b97a273b2cb091df08d45e5.js" defer></script><script src="/mayday/app/_expo/static/js/web/index-5014268705ffbe7caef8830cbe0bf501.js" defer></script>
+<script>
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('/mayday/app/sw.js', { scope: '/mayday/app/' });
+  </script>
+</body>
+</html>

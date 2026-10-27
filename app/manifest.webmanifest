@@ -1,0 +1,23 @@
+{
+  "name": "Mayday",
+  "short_name": "Mayday",
+  "description": "Step-by-step help in an emergency, until help arrives.",
+  "start_url": "/mayday/app/",
+  "scope": "/mayday/app/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#121110",
+  "theme_color": "#121110",
+  "icons": [
+    {
+      "src": "/mayday/app/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/mayday/app/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
